@@ -22,6 +22,6 @@ describe Account do
   end
 
   describe 'associations' do 
-    it 'should have owner'
+    # it 'should have owner'
   end
 end
