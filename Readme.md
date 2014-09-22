@@ -1,0 +1,1 @@
+A simple SAAS model built using Ruby on Rails
