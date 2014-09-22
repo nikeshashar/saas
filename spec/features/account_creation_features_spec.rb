@@ -9,6 +9,5 @@ describe 'account creation' do
     # fill_in 'Password', with: '12345678'
     # fill_in 'Password Confirmation', with: '12345678'
     fill_in 'Subdomain', with: 'test_subdomain'
-    # expect(page).to have_content 'Signed up successfully'
   end
 end
