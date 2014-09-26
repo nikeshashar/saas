@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
-
+gem 'simple_form'
 
 group :development, :test do 
   gem 'guard'
