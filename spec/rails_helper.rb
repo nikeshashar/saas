@@ -5,6 +5,7 @@ require 'rspec/rails'
 require 'database_cleaner'
 require 'capybara/rails'
 require 'launchy'
+require 'shoulda-matchers'
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
