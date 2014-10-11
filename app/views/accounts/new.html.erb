@@ -1,15 +1,15 @@
 <div class="col-md-6 col-md-offset-3 panel panel-default">
   <div class="panel-body">
-    
     <h2>Create an Account</h2>
 
-    <%= simple_form_for(@account, html: {class: 'form-simple' }) do |f| %>
-       
-        <%= f.label :subdomain %>
-        <%= f.input_field :subdomain %>
-   
-      </p>
-      <%= f.button :submit %>
+    <%= form_for @account do |f| %>
+      <%= form_group_for f, :subdomain do %>
+        <div class="input-group">
+          <%= f.text_field :subdomain, class: 'form-control' %>
+          <span class="input-group-addon">.saasapp.io</span>
+        </div>
+      <% end %>
+      <%= f.submit class: 'btn btn-primary' %>
     <% end %>
   </div>
 </div>
