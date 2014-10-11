@@ -11,6 +11,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'simple_form'
+gem 'devise'
 
 group :development, :test do 
   gem 'guard'
