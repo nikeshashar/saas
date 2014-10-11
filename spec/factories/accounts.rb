@@ -2,7 +2,8 @@
 
 FactoryGirl.define do
   factory :account do
-    subdomain "MyString"
-    owner_id 1
+    sequence(:subdomain) { |n| "subdomain#{n}" }
+    association :owner, factory: :user
+    #linking owner factory to user factory.
   end
 end
